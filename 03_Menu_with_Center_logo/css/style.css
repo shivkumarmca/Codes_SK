@@ -1,0 +1,36 @@
+* {
+  margin: 0 ;
+  padding: 0;
+}
+.navbar-brand img{
+  width: 60px;
+  height: 60px;
+}
+.navbar-brand{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 10px;
+}
+.navbar{
+  padding: 1em 0 !important;
+}
+.navbar-toggler{
+  border: none !important;
+  outline: none !important;
+}
+.banner{
+  padding: 0 60px;
+}
+.home-header{
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/banner.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.banner-text{
+  font-size: 36px;
+  color: #fff;
+  padding-left: 4%;
+  padding-top: 220px;
+  padding-bottom: 20px;
+}

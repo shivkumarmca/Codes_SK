@@ -1,0 +1,128 @@
+* {
+  margin: 0 ;
+  padding: 0;
+}
+
+/* Change Logo Size */
+.logo {
+  height: 35px;
+  width: 120px;
+}
+
+/* set Menu Background Color */
+.menu-bar {
+  min-height: 8%;
+  background: #ff9800;
+}
+
+/* Change Text Color for Navigation Links */
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #000;
+}
+
+.active {
+  color: #000 !important;
+}
+
+/* Change Outline and Color of Toggle Icon */
+.navbar-toggler {
+  outline: none !important;
+}
+.navbar-toggler .fa {
+  color: #fff;
+}
+
+/* Banner: Left Div */
+.banner{
+    min-height: 77%;
+   
+    color: #555;
+
+    /* border: 2px solid red; */
+}
+
+.banner img{
+    width: 400px;
+    height: 350px;
+}
+
+/* Banner Right: Text */
+
+.info{
+margin: 24% auto;
+}
+
+.info h1{
+    font-size: 30px;
+}
+
+.info a{
+    text-decoration: none !important;
+    color: #fff !important;
+    width: 135px;
+    padding: 15px 25px;
+    margin: 5% 10px;
+    background: #FF9800;
+    display: inline-block;
+}
+
+.info .second-btn{
+border: 1px solid #ff9800 !important;
+background: transparent !important;
+color: #555 !important;
+transition: .5s;
+}
+
+.info .second-btn:hover{
+    background: #FF9800 !important;
+color: #fff !important;
+}
+
+/* Footer Widget */
+/* .row{     */
+    /* margin: 0 !important; */
+    /* border: 2px solid blue; */
+/* } */
+.footer-widget{
+    min-height: 15%;
+    background-image: linear-gradient(to right, #ff9800, #a46406);
+    padding: 5px 20px;
+    display: inline-flex; 
+    /*Required to show above settings */
+    color: #fff;
+}
+.footer-widget .fa{
+    /* margin: 5px auto; */
+    font-size: 25px;
+}
+.footer-text{
+    padding-left: 25px;
+    /* margin: auto; */
+}
+
+.footer-widget .social-icons{
+    margin: 0 20px;    
+}
+.social-icons .fa{
+    padding:10px;
+}
+/* .footer{
+position: fixed;
+bottom: 0;
+left: 0;
+right: 0;
+} */
+/* .footer .icon{
+    margin: 5px auto;
+text-align:center;
+} */
+
+@media only and (max-width: 960px){
+.footer-widget{
+  background-image: linear-gradient(#ff9800, #a46406);
+}
+}

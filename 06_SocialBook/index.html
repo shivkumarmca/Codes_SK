@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Social_Book</title>
+    <script src="https://kit.fontawesome.com/3245ebdead.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav_left">
+            <img class="logo" src="images/logo.png" alt="">
+            <ul>
+                <li>
+                    <img src="images/notification.png" alt="">
+                    <img src="images/inbox.png" alt="">
+                    <img src="images/video.png" alt="">
+                </li>
+            </ul>
+        </div>
+        <div class="nav_right">
+            <div class="search_box">
+                <img src="images/search.png" alt="" srcset="">
+                <input type="text" name="" id="" placeholder="Search...">
+            </div>
+
+            <div class="nav_user_icon status" onclick="settingsMenuToggle()">
+                <img src="images/profile-pic.png" alt="" srcset="">
+            </div>
+        </div>
+
+        <!-- options dropdown -->
+        <div class="settings_menu">
+
+            <div class="inner_settings_menu">
+                <div class="user_profile">
+                    <img src="images/profile-pic.png" alt="">
+                    <div>
+                        <p>John Nicholeson</p>
+                      <a href="#">See your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user_profile">
+                    <img src="images/feedback.png" alt="">
+                    <div>
+                        <p>Give Feedback</p>
+                      <a href="#">Help us to improve new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="setting_links">
+                    <img class="settings_icon" src="images/setting.png" alt="">
+                    <a href="#">Settings & Privacy <img src="images/arrow.png" alt="" width="10px"></a>                    
+                </div>
+                <hr>
+                <div class="setting_links">
+                    <img class="settings_icon" src="images/help.png" alt="">
+                    <a href="#">Help & Support<img src="images/arrow.png" alt="" width="10px"></a>                    
+                </div>
+                <hr>
+                <div class="setting_links">
+                    <img class="settings_icon" src="images/display.png" alt="">
+                    <a href="#">Display & Accessibility<img src="images/arrow.png" alt="" width="10px"></a>                    
+                </div>
+                <hr>
+                <div class="setting_links">
+                    <img class="settings_icon" src="images/logout.png" alt="">
+                    <a href="#">Logout<img src="images/arrow.png" alt="" width="10px"></a>                    
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MAin -->
+    <div class="container">
+        <!-- left_sidebar -->
+        <div class="left_sidebar">
+            <div class="imp_links">
+                <a href=""> <img src="images/news.png" alt=""> Latest News</a>
+                <a href=""> <img src="images/friends.png" alt=""> Friends</a>
+                <a href=""> <img src="images/group.png" alt=""> Groups</a>
+                <a href=""> <img src="images/marketplace.png" alt=""> Market Place</a>
+                <a href=""> <img src="images/watch.png" alt=""> Watch</a>
+                <a href=""> See More</a>
+            </div>
+
+            <!-- shortcuts -->
+            <div class="shortcut_links">
+                <p>Your Shortcuts</p>
+                <a href=""> <img src="images/shortcut-1.png" alt=""> Service # 1 </a>
+                <a href=""> <img src="images/shortcut-2.png" alt=""> Service # 2 </a>
+                <a href=""> <img src="images/shortcut-3.png" alt=""> Service # 3 </a>
+                <a href=""> <img src="images/shortcut-4.png" alt=""> Service # 4 </a>
+            </div>
+        </div>
+
+        <!-- main_content -->
+        <div class="main_content">
+            <div class="story_gallery">
+                <div class="story story1">
+                    <img src="images/upload.png" alt="">
+                    <p>Post Story</p>
+                </div>
+
+                <div class="story story2">
+                    <img src="images/member-1.png" alt="">
+                    <p>Post Story</p>
+                </div>
+
+                <div class="story story3">
+                    <img src="images/member-2.png" alt="">
+                    <p>Post Story</p>
+                </div>
+
+                <div class="story story4">
+                    <img src="images/member-3.png" alt="">
+                    <p>Post Story</p>
+                </div>
+
+                <div class="story story5">
+                    <img src="images/member-4.png" alt="">
+                    <p>Post Story</p>
+                </div>
+            </div>
+            <div class="write_post_container">
+                <div class="user_profile">
+                    <img src="images/profile-pic.png" alt="">
+                    <div>
+                        <p>John Nicholeson</p>
+                        <small>Public</small>
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+
+                <div class="post_input_container">
+                    <textarea cols="30" placeholder="What's on Your Mind John?"></textarea>
+                    <div class="add_post_links">
+                        <a href=""><img src="images/live-video.png" alt="">Live Video</a>
+                        <a href=""><img src="images/photo.png" alt="">Photo/Video</a>
+                        <a href=""><img src="images/feeling.png" alt="">Feeling Activity</a>
+                    </div>
+                </div>
+            </div>
+            <!-- End of Write Post -->
+
+            <!-- Post # 1 -->
+            <div class="post_container">
+                <div class="post_row">
+                    <div class="user_profile">
+                        <img src="images/profile-pic.png" alt="">
+                        <div>
+                            <p>John Nicholeson</p>
+                            <span>Jun 24 2021, 02:15 PM </span>
+                        </div>
+                    </div>
+                    <a href=""> <i class="fas fa-ellipsis-v"></i> </a>
+                </div>
+
+                <p class="post_text"> 
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span>Blanditiis voluptas</span> commodi iure pariatur iusto consequuntur, nihil vitae, impedit dignissimos imilique nobis consectetur dolore id neque perspiciatis odit, qui amet reiciendis.
+                    
+                    <a href="">#EasyTutorials </a>
+                    <a href="">#Tutorials </a>
+                </p>
+
+                <img class="post_img" src="images/feed-image-1.png" alt="">
+
+                <div class="post_row">
+                    <div class="activity_icons">
+                        <div>
+                            <img src="images/like-blue.png" alt=""> 120
+                        </div>
+                        <div>
+                            <img src="images/comments.png" alt=""> 1120
+                        </div>
+                        <div>
+                            <img src="images/share.png" alt=""> 2545
+                        </div>
+                    </div>
+                    <div class="post_profile_icon">
+                        <img src="images/profile-pic.png" alt="">
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- Post # 2 -->
+            <div class="post_container">
+                <div class="post_row">
+                    <div class="user_profile">
+                        <img src="images/profile-pic.png" alt="">
+                        <div>
+                            <p>John Nicholeson</p>
+                            <span>Jun 24 2021, 02:15 PM </span>
+                        </div>
+                    </div>
+                    <a href=""> <i class="fas fa-ellipsis-v"></i> </a>
+                </div>
+
+                <p class="post_text"> 
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span>Blanditiis voluptas</span> commodi iure pariatur iusto consequuntur, nihil vitae, impedit dignissimos imilique nobis consectetur dolore id neque perspiciatis odit, qui amet reiciendis.
+                    
+                    <a href="">#EasyTutorials </a>
+                    <a href="">#Tutorials </a>
+                </p>
+
+                <img class="post_img" src="images/feed-image-2.png" alt="">
+
+                <div class="post_row">
+                    <div class="activity_icons">
+                        <div>
+                            <img src="images/like-blue.png" alt=""> 120
+                        </div>
+                        <div>
+                            <img src="images/comments.png" alt=""> 1120
+                        </div>
+                        <div>
+                            <img src="images/share.png" alt=""> 2545
+                        </div>
+                    </div>
+                    <div class="post_profile_icon">
+                        <img src="images/profile-pic.png" alt="">
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- Post # 3 -->
+            <div class="post_container">
+                <div class="post_row">
+                    <div class="user_profile">
+                        <img src="images/profile-pic.png" alt="">
+                        <div>
+                            <p>John Nicholeson</p>
+                            <span>Jun 24 2021, 02:15 PM </span>
+                        </div>
+                    </div>
+                    <a href=""> <i class="fas fa-ellipsis-v"></i> </a>
+                </div>
+
+                <p class="post_text"> 
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span>Blanditiis voluptas</span> commodi iure pariatur iusto consequuntur, nihil vitae, impedit dignissimos imilique nobis consectetur dolore id neque perspiciatis odit, qui amet reiciendis.
+                    
+                    <a href="">#EasyTutorials </a>
+                    <a href="">#Tutorials </a>
+                </p>
+
+                <img class="post_img" src="images/feed-image-3.png" alt="">
+
+                <div class="post_row">
+                    <div class="activity_icons">
+                        <div>
+                            <img src="images/like-blue.png" alt=""> 120
+                        </div>
+                        <div>
+                            <img src="images/comments.png" alt=""> 1120
+                        </div>
+                        <div>
+                            <img src="images/share.png" alt=""> 2545
+                        </div>
+                    </div>
+                    <div class="post_profile_icon">
+                        <img src="images/profile-pic.png" alt="">
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="btnLoadMore" type="button">Load More...</button>
+        </div>
+
+        <!-- right_sidebar -->
+        <div class="right_sidebar">
+            <div class="sidebar_title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+            <!-- Event # 1 -->
+            <div class="event">
+                <div class="event_left">
+                    <h3>18</h3>
+                    <span>March</span>
+                </div>
+                <div class="event_right">
+                    <h4>Social Media</h4>
+                    <p> <i class="fas fa-map-marker-alt"></i> Willson Tech. Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+
+            <!-- Event # 2 -->
+            <div class="event">
+                <div class="event_left">
+                    <h3>29</h3>
+                    <span>July</span>
+                </div>
+                <div class="event_right">
+                    <h4>YouTube</h4>
+
+                    <p> <i class="fas fa-map-marker-alt"></i> Willson Tech. Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+
+
+            <!-- Event # 3 -->
+            <div class="event">
+                <div class="event_left">
+                    <h3>01</h3>
+                    <span>August</span>
+                </div>
+                <div class="event_right">
+                    <h4>Event 3</h4>
+
+                    <p><i class="fas fa-map-marker-alt"></i> Willson Tech. Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+
+            <!-- Advertisement -->
+            <div class="sidebar_title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img class="sidebar_ads" src="images/advertisement.png" alt="" srcset="">
+
+            <!-- Conversations -->
+            <div class="sidebar_title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+            <!-- Member # 1 -->
+            <div class="online_users">
+                <div class="status">
+                    <img src="images/member-1.png" alt="" srcset="">
+                </div>
+                <p>Jack Nicholeson</p>
+            </div>
+            <!-- Member # 2 -->
+            <div class="online_users">
+                <div class="status">
+                    <img src="images/member-2.png" alt="" srcset="">
+                </div>
+                <p>Jack Albert</p>
+            </div>
+            <!-- Member # 3 -->
+            <div class="online_users">
+                <div class="status">
+                    <img src="images/member-3.png" alt="" srcset="">
+                </div>
+                <p>John Doe</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Copyright 2021 - Shiv Kumar with ET</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,149 @@
+* {
+  margin: 0 ;
+  padding: 0;
+  font-family: sans-serif;
+}
+body{
+  background: linear-gradient(#3f51b5, #000);
+}
+.main{
+  width: 350px;
+  height: 100vh;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  background: #fdfdfd;  
+}
+/* Header Menu */
+.header{
+  width: 100%;
+  padding: 10px 0;
+  background: #f9f9f9;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+/* Header Icons */
+.header .fa{
+  font-size: 20px;  
+  position: absolute;  
+  top: 10px;
+  cursor: pointer;  
+}
+/* Header Icon Menu */
+.icon-menu i{
+  left:20px;
+  color:#0077af;
+}
+/* Header Icon Bell */
+.icon-bell i{
+  right: 20px;
+  color:#0077af;
+}
+
+/* Header Text */
+.header p{
+  color:#0077af;
+  text-align: center;
+  font-weight: bold;
+}
+/* Header Ends */
+
+/* Main Text */
+.main-text{
+  width: 300px;
+  margin: 50px auto 0;
+  color: #777;
+}
+
+.main-text h2{
+  margin-bottom: 20px;
+}
+
+/* Footer */
+.footer-menu{
+  width: 100%;  
+  position: absolute;
+  bottom: -10px;
+  padding: 17px 5px;
+  background: #f9f9f9;
+  box-shadow: 0 0 10px 2px rgba(172, 166, 166, 0.1);
+}
+.footer-menu .fa{
+  font-size: 20px;
+  margin: 0 32px;  
+  color:#0077af;
+  /* position: absolute;   */
+  /* top: 10px; */
+  cursor: pointer;  
+}
+
+/* Slider */
+.swiper-container{
+  height: 350px;  
+}
+.swiper-wrapper{
+  align-items: center;
+}
+.swiper-slide{
+  width: 200px;
+  height: 250px;
+  border-radius: 7px;
+}
+.swiper-slide img{
+  width: 200px;
+  height: 250px;
+  border-radius: 7px;
+}
+.swiper-slide-active{
+  transform: scale(1.2);
+  transition: 0.4s;
+}
+
+/* INFO */
+.info{
+  width: 100%;
+  padding: 8px 0;
+  background: rgba(0,0,0,0.6);
+  position: absolute;
+  bottom: 0;
+  text-align: justify;
+  border-radius: 0 0 5px 5px;
+  color: #f9f9f9;
+}
+
+.info h3{
+  color: #fff;
+  font-size: 15px;
+  font-weight: 100;
+  margin-left: 15px;
+}
+
+.info p{
+  color: #fff;
+  font-size: 10px;
+  margin-left: 15px;
+}
+
+.info a{
+  text-decoration: none;
+  font-size: 10px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  float: right;
+  margin-left: 7px;
+  margin-top: -28px;
+  padding: 2px 8px;
+}
+
+.swiper-pagination{
+  bottom: 0 !important;
+}
+
+/* .nav-menu{
+  position: relative;
+  bottom: 10;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+  top: 760px;
+} */

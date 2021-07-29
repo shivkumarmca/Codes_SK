@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurent Web Header</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+  <!-- <link rel="stylesheet" href="css/style.css"> -->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar {
+      padding: 3em 0 !important;
+    }
+    
+    .navbar-brand {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-20%);
+      top: 10px;
+    }
+
+    .navbar-brand img {
+      width: 150px;
+      height: 150px;
+    }
+
+    
+
+   
+
+    .navbar-toggler {
+      border: none !important;
+      outline: none !important;
+    }
+
+    .banner {
+      padding: 0 60px;
+    }
+
+    .home-header {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/banner.jpg');
+      background-position: center;
+      background-size: cover;
+    }
+
+    .banner-text {
+      font-size: 36px;
+      color: #fff;
+      padding-left: 4%;
+      padding-top: 220px;
+      padding-bottom: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="banner">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">
+        <img class="logo" src="images/logo.png" alt="" srcset="">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">
+          <!-- <i class="fa fa-bars"></i> -->
+        </span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Privacy</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Download</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Logout</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="home-header">
+      <div class="banner-text">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est fugiat maiores, <br>libero ipsa odit doloribus
+          harum rem hic! Numquam ducimus tempore aperiam magnam <br>iste consequuntur vitae eveniet voluptatibus
+          molestiae. Qui.</p>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+  <!-- Include JavaScript, Popper JS and Jquery -->
+  <!-- NOTE: Order is Important (jquery, popper and then bootstrap js) -->
+  <!-- <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+  -->
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <!-- Custom Java Script if Required -->
+</body>
+
+</html>

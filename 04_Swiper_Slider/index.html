@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swiper Slider</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <!-- END SWIPER -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="main">
+    <div class="header">
+      <span class="icon-menu"><i class="fa fa-bars"></i></span>
+      <p> MEET APP </p>
+      <span class="icon-bell"><i class="fa fa-bell"></i></span>
+    </div>
+    <div class="main-text">
+      <h2>Our Team</h2>
+      <small>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis excepturi nulla voluptatem iusto deserunt error
+        corporis nesciunt reprehenderit dolorum provident! Magni ab nisi eius sint temporibus corrupti blanditiis illo
+        nobis!
+      </small>
+    </div>
+    <div class="footer-menu">
+      <i class="fa fa-home"></i>
+      <i class="fa fa-search"></i>
+      <i class="fa fa-user"></i>
+      <i class="fa fa-undo"></i>
+    </div>
+
+    <!-- Swiper -->
+    <!-- Swiper -->
+    <div class="swiper-container mySwiper">
+      <div class="swiper-wrapper">
+        <!-- <div class="swiper-slide">Slide 1</div>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+        <div class="swiper-slide">Slide 4</div>
+        <div class="swiper-slide">Slide 5</div>
+        <div class="swiper-slide">Slide 6</div>
+        <div class="swiper-slide">Slide 7</div>
+        <div class="swiper-slide">Slide 8</div>
+        <div class="swiper-slide">Slide 9</div> -->
+        <div class="swiper-slide"><img src="images/article-ph-1.png" alt="" srcset="">
+          <div class="info">
+            <h3>Shiv Kumar</h3>
+            <p>Founder & CEO</p>
+            <a href="#">Contact</a>
+          </div>
+        </div>
+        <div class="swiper-slide"><img src="images/article-ph-2.png" alt="" srcset="">
+          <div class="info">
+            <h3>Shiv Kumar</h3>
+            <p>Founder & CEO</p>
+            <a href="#">Contact</a>
+          </div>
+        </div>
+        <div class="swiper-slide"><img src="images/article-ph-3.png" alt="" srcset="">
+          <div class="info">
+            <h3>Shiv Kumar</h3>
+            <p>Founder & CEO</p>
+            <a href="#">Contact</a>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="swiper-button-next"></div> -->
+      <!-- <div class="swiper-button-prev"></div> -->
+      <div class="swiper-pagination"></div>
+    </div>
+    <!-- End Swiper -->
+    <!-- <div class="nav-menu"> </div> -->
+  </div>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 'auto',
+      spaceBetween: 30,
+      centeredSlides: true,
+      // grabCursor:true,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      // removed next and previous
+    });
+  </script>
+</body>
+
+</html>
